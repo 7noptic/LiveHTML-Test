@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="img/favicon/favicon.ico">
+  <link rel="icon" type="image/vnd.microsoft.icon" href="img/favicon/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="img/favicon/favicon.ico">
+  <link rel="icon" href="img/favicon/favicon.ico">
+  <title>Title</title>
+  <link href="vendors~main.css" rel="stylesheet">
+  <link href="main.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header" itemscope itemtype="http://schema.org/Organization">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 d-flex">
+          <div class="header__left">
+            <a itemprop="url" href="index.html" class="logo">
+              <picture class="logo__img">
+                <source srcset="img/l.webp" type="image/webp">
+                <img src="img/l.jpg" alt="">
+              </picture>
+              <span class="logo__text">
+                магазин инструмента
+              </span>
+            </a>
+          </div>
+          <div class="header__right">
+            <div class="header-top">
+              <nav class="header-menu" itemscope itemtype="http://schema.org/SiteNavigationElement">
+                <a itemprop="url" href="#" class="header-menu__link">Каталог инструментов</a>
+                <a itemprop="url" href="#" class="header-menu__link">Все для сада</a>
+                <a itemprop="url" href="#" class="header-menu__link">Ручной инструмент</a>
+                <a itemprop="url" href="#" class="header-menu__link">Электрика</a>
+                <a itemprop="url" href="#" class="header-menu__link">Доставка</a>
+                <a itemprop="url" href="#" class="header-menu__link">Оплата</a>
+                <a itemprop="url" href="#" class="header-menu__link">О нас</a>
+              </nav>
+              <div class="header-user">
+                <a href="#" class="header-user__link">Вход</a>
+                <span class="header-user__line">|</span>
+                <a href="#" class="header-user__link">Регистрация</a>
+              </div>
+            </div>
+            <div class="header-bottom">
+
+              <div class="header-banner">
+                <a href="#" class="header-banner__link">
+                  <picture class="header-banner__img">
+                    <source srcset="img/b.webp" type="image/webp">
+                    <img src="img/b.jpg" alt="">
+                  </picture>
+                </a>
+              </div>
+
+              <div class="header-account">
+                <a href="#" class="header-account__link">
+                  <picture class="header-account__img">
+                    <source srcset="img/c.webp" type="image/webp">
+                    <img src="img/c.jpg" alt="">
+                  </picture>
+                  <span class="header-account__text">31 шт. / 174 250 р.</span>
+                </a>
+
+                <a href="#" class="header-account__link">
+                  <picture class="header-account__img">
+                    <source srcset="img/s.webp" type="image/webp">
+                    <img src="img/s.jpg" alt="">
+                  </picture>
+                  <span class="header-account__text">Избранное (7)</span>
+                </a>
+
+                <a href="#" class="header-account__link">
+                  <picture class="header-account__img">
+                    <source srcset="img/v.webp" type="image/webp">
+                    <img src="img/v.jpg" alt="">
+                  </picture>
+                  <span class="header-account__text">К сравнению (5)</span>
+                </a>
+              </div>
+
+              <div class="header-product">
+                <a href="#" class="header-product__item">
+                  <picture class="header-product__img">
+                    <source srcset="img/1.webp" type="image/webp">
+                    <img src="img/1.jpg" alt="">
+                  </picture>
+                </a>
+
+                <a href="#" class="header-product__item">
+                  <picture class="header-product__img">
+                    <source srcset="img/2.webp" type="image/webp">
+                    <img src="img/2.jpg" alt="">
+                  </picture>
+                </a>
+
+                <a href="#" class="header-product__item">
+                  <picture class="header-product__img">
+                    <source srcset="img/3.webp" type="image/webp">
+                    <img src="img/3.jpg" alt="">
+                  </picture>
+                </a>
+              </div>
+              <div class="header-info" itemscope itemtype="http://schema.org/LocalBusiness">
+                <div class="header-info__text">
+                  <span class="header-info__text-bold">Время работы: </span>
+                  <div itemprop="openingHours">10:00 — 19:00</div>
+                </div>
+                <a href="tel:84957212525" class="header-info__tel" itemprop="telephone">8 495 721-25-25</a>
+
+                <div class="header-address">
+                  <span class="header-address__text js-region-city" itemprop="addressLocality">Москва</span>
+                  <a class="header-address__link js-region">сменить</a>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col-12">
+          <nav class="header-catalog">
+            <div class="header-search">
+
+              <a href="#" class="btn header-search__img js-search">
+                <picture class="js-search">
+                  <source srcset="img/r.webp" type="image/webp">
+                  <img src="img/r.png" alt="">
+                </picture>
+              </a>
+              <form action="POST">
+                <div class="header-form">
+
+
+                  <a href="#" class="header-form__exit js-search">
+                    <img src="img/mex.svg" alt="" class="modal-search__exit">
+                  </a>
+                  <input type="search" class="form-control header-form__input" placeholder="Поиск">
+                  <button type="submit" class="form-control header-form__btn">
+                    <picture>
+                      <source srcset="img/r.webp" type="image/webp">
+                      <img src="img/r.jpg" alt="">
+                    </picture>
+                  </button>
+                </div>
+              </form>
+            </div>
+            <ul class="header-catalog__list">
+              <li class="header-catalog__item"><a href="#" class="header-catalog__link">Перфораторы</a>
+              </li>
+              <li class="header-catalog__item"><a href="#" class="header-catalog__link">Дрели</a></li>
+              <li class="header-catalog__item"><a href="#" class="header-catalog__link">Шлифмашины</a>
+              </li>
+              <li class="header-catalog__item"><a href="#" class="header-catalog__link">Пистолеты</a></li>
+              <li class="header-catalog__item"><a href="#" class="header-catalog__link">Электропилы</a>
+              </li>
+              <li class="header-catalog__item"><a href="#" class="header-catalog__link">Наборы
+                  инструментов</a></li>
+              <li class="header-catalog__item"><a href="#" class="header-catalog__link">Аксессуары</a>
+              </li>
+            </ul>
+            <a href="#" class="header-catalog__sale">Распродажа</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- MODAL -->
+  <aside class="js-sidebars">
+    <section class="modal modal-region">
+      <div class="modal__wrapper modal-region__wrapper">
+        <h2 class="modal__title modal-region__title">Выбрать район</h2>
+
+
+        <ul class="modal-region__list">
+          <li><a href="#" class="modal-region__link">Москва</a></li>
+          <li><a href="#" class="modal-region__link">Санкт-Петербург</a></li>
+          <li><a href="#" class="modal-region__link">Дубай</a></li>
+          <li><a href="#" class="modal-region__link">Токио</a></li>
+          <li><a href="#" class="modal-region__link">Лондон</a></li>
+          <li><a href="#" class="modal-region__link">Рим</a></li>
+          <li><a href="#" class="modal-region__link">Москва</a></li>
+          <li><a href="#" class="modal-region__link">Санкт-Петербург</a></li>
+          <li><a href="#" class="modal-region__link">Дубай</a></li>
+          <li><a href="#" class="modal-region__link">Токио</a></li>
+          <li><a href="#" class="modal-region__link">Лондон</a></li>
+          <li><a href="#" class="modal-region__link">Рим</a></li>
+          <li><a href="#" class="modal-region__link">Москва</a></li>
+          <li><a href="#" class="modal-region__link">Санкт-Петербург</a></li>
+          <li><a href="#" class="modal-region__link">Дубай</a></li>
+          <li><a href="#" class="modal-region__link">Токио</a></li>
+          <li><a href="#" class="modal-region__link">Лондон</a></li>
+          <li><a href="#" class="modal-region__link">Рим</a></li>
+          <li><a href="#" class="modal-region__link">Москва</a></li>
+          <li><a href="#" class="modal-region__link">Санкт-Петербург</a></li>
+          <li><a href="#" class="modal-region__link">Дубай</a></li>
+          <li><a href="#" class="modal-region__link">Токио</a></li>
+          <li><a href="#" class="modal-region__link">Лондон</a></li>
+          <li><a href="#" class="modal-region__link">Рим</a></li>
+          <li><a href="#" class="modal-region__link">Москва</a></li>
+          <li><a href="#" class="modal-region__link">Санкт-Петербург</a></li>
+          <li><a href="#" class="modal-region__link">Дубай</a></li>
+          <li><a href="#" class="modal-region__link">Токио</a></li>
+          <li><a href="#" class="modal-region__link">Лондон</a></li>
+          <li><a href="#" class="modal-region__link">Рим</a></li>
+          <li><a href="#" class="modal-region__link">Москва</a></li>
+          <li><a href="#" class="modal-region__link">Санкт-Петербург</a></li>
+          <li><a href="#" class="modal-region__link">Дубай</a></li>
+          <li><a href="#" class="modal-region__link">Токио</a></li>
+          <li><a href="#" class="modal-region__link">Лондон</a></li>
+          <li><a href="#" class="modal-region__link">Рим</a></li>
+        </ul>
+
+        <a href="#" class="modal__exit">
+
+          <img src="img/mex.svg" alt="" class="modal-region__exit">
+        </a>
+      </div>
+    </section>
+
+  </aside>
+  <!-- !MODAL -->
+  <script src="vendors~main.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
